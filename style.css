@@ -1,0 +1,156 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution, .attribution a{
+    font-family: 'interbold';
+    color: hsl(0, 0%, 100%);
+    
+    
+    
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    
+ 
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    height: 535px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    gap: 12px;
+    font-size: 14px;
+   
+    
+    
+
+}
+
+img{
+    border-radius: 100px;
+    width: 115px;
+    padding: 20px;
+    
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: -15px;
+}
+.topicos{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'intersemibold';
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    gap: 10px;
+    transition: all 0.15s ease-out;
+    
+    
+}
+.topicos:hover{
+    
+    cursor: pointer;
+    user-select: none;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: all 0.2s ease-in;
+
+
+}
+h4{
+    font-family: 'intersemibold';
+    color: hsl(75, 94%, 57%);
+   
+}
+h3{ 
+    font-family: 'interbold';
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+span{
+    font-family: 'interregular';
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+@font-face {
+    font-family: 'interregular';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+
+}
+@font-face {
+    font-family: 'interbold';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+
+}
+@font-face {
+    font-family: 'intersemibold';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+@media screen and (){
+/* MAX WIDTH - TELA MENORES QUE ALGUMA RESOLUÇÃO*/
+
+
+
+
+
+
+
+}
+@media (max-width: 375px){
+    #container{
+        width: 310px;
+        height: 555px;
+        gap: 14px;
+
+    }
+    .topicos{
+        width: 220px;
+        height: 40px;
+    }
+
+
+}
+
+
+
+@media (min-width: 375px) and (min-width: 500px)
+{
+/* Se a resolução for maior que */
+
+}
+@media (max-width: 1440px) 
+{
+/* Se a resolução for menor que */   
+
+}
